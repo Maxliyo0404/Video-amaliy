@@ -59,7 +59,7 @@ header video{
    object-fit: cover;
    z-index: 0;
 }
-.card{
+.hero-content{
     width: 800px;
     margin: 0 auto;
     z-index: 1;
@@ -68,12 +68,7 @@ header video{
     text-align: center;
     padding: 300px 0; 
 }
-.hero-content{
-    width: 800px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 200px 0;
-}
+
 .hero-content h1{
     font-size: 60px;
     font-weight: bold;
