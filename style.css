@@ -70,6 +70,7 @@ header video{
 }
 .hero-content{
     width: 800px;
+    text-align: center;
 }
 .hero-content h1{
     font-size: 60px;
