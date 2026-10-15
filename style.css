@@ -87,4 +87,7 @@ header video{
     border-radius: 16px;
     border: none;
     color: white;
+    &:hover{
+        
+    }
 }
