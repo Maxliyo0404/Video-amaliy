@@ -71,7 +71,7 @@ header video{
 .hero-content{
     width: 800px;
     text-align: center;
-    margin: ;
+    margin: 0 auto;
     padding: 200px 0;
 }
 .hero-content h1{
