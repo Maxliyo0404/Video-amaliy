@@ -12,7 +12,7 @@
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
-    z-index: 1; /* Videoning ustida ko'rinishi uchun */
+    z-index: 1; 
 }
 
 /* Navbar uslublari */
