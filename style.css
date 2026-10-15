@@ -6,6 +6,44 @@
     text-decoration: none;
     font-family: sans-serif;
 }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1; /* Videoning ustida ko'rinishi uchun */
+}
+
+/* Navbar uslublari */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul .btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
 
 header{
     width: 100%;
