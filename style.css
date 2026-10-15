@@ -88,6 +88,6 @@ header video{
     border: none;
     color: white;
     &:hover{
-        
+        transform: scale(1.1);
     }
 }
