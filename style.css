@@ -94,3 +94,11 @@ header video{
         transform: scale(1.1);
     }
 }
+.uzum-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.uzum-item{
+    max-width: 100%;
+}
+
