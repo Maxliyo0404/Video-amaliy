@@ -146,7 +146,9 @@ mark{
 .about-link{
     width: 100%;
     display: block;
-    background: blue;
+    border-radius: 8px;
+    background: rgb(22, 1, 19);
     text-align: center;
     color: white;
+    padding: 12px 0;
 }
