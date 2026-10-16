@@ -97,16 +97,26 @@ header video{
 }
 .uzum-list{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 
 }
 .uzum-item{
     max-width: 100%;
     box-shadow: 10px 20px 15px 18px gainsboro;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
 }
 .rasm1{
     width: 100%;
+    height: 250px;
+    
+}
+.rasm2{
+    position: absolute;
+    right: 40px;
+    top: 30px;
 }
 .about{
     padding: 80px 0;
