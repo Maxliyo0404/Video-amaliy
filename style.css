@@ -103,13 +103,10 @@ header video{
 }
 .uzum-item{
     max-width: 100%;
-    box-shadow: 10px 0px 10px 10px gainsboro;
+    box-shadow: 10px 20px 15px 18px gainsboro;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
-    &:hover{
-        transform: scale(0.9);
-    }
 }
 .rasm1{
     width: 100%;
@@ -118,8 +115,8 @@ header video{
 }
 .rasm2{
     position: absolute;
-    right: 40px;
-    top: 30px;
+    right: 10px;
+    top: 20px;
 }
 .about{
     padding: 80px 0;
@@ -144,7 +141,7 @@ mark{
     margin-top: 10px;
     width: 100%;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .about-link{
     width: 100%;
