@@ -160,3 +160,72 @@ mark{
     color: white;
     padding: 12px 0;
 }
+
+
+
+/* ==========================================
+   RESPONSIV QISM (MEDIA QUERIES)
+========================================== */
+
+/* Planshetlar uchun (992px dan kichik ekranlar) */
+@media (max-width: 992px) {
+    .hero-content {
+        padding: 220px 20px;
+        
+        h1 {
+            font-size: 46px;
+        }
+        
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+/* Mobil telefonlar uchun (768px dan kichik ekranlar) */
+@media (max-width: 768px) {
+    nav ul {
+        gap: 15px;
+        
+        li a {
+            font-size: 15px;
+        }
+    }
+
+    nav ul .btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .hero-content {
+        padding: 160px 15px;
+        
+        h1 {
+            font-size: 32px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        .btns {
+            font-size: 18px;
+            padding: 12px 25px;
+        }
+    }
+
+    /* Telefonda kartochkalar 1 ta ustun bo'lib tushadi */
+    .uzum-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .rasm1 {
+        height: 300px;
+    }
+
+    .about-titles h2, 
+    .about-titles .title {
+        font-size: 24px;
+    }
+}
