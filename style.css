@@ -128,3 +128,8 @@ header video{
     font-size: 30px;
     margin-bottom: 10px;
 }
+.about-titles title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: gainsboro;
+}
