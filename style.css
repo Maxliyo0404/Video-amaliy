@@ -102,13 +102,13 @@ header video{
 
 }
 .uzum-item{
-    max-width: 100%;
+    max-width: 0%;
     box-shadow: 10px 20px 15px 18px gainsboro;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
     &:hover{
-        transform: scale(0.9J);
+        transform: scale(0.9);
     }
 }
 .rasm1{
