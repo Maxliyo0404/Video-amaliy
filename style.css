@@ -145,6 +145,7 @@ mark{
 }
 .about-link{
     width: 100%;
+    display: block;
     background: blue;
     text-align: center;
     color: white;
