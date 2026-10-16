@@ -107,6 +107,9 @@ header video{
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    &:hover{
+        transform: scale(0.8);
+    }
 }
 .rasm1{
     width: 100%;
