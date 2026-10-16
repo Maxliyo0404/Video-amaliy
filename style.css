@@ -123,8 +123,8 @@ header video{
 }
 .rasm2{
     position: absolute;
-    right: 40px;
-    top: 30px;
+    right: 30px;
+    top: 20px;
 }
 .about{
     padding: 80px 0;
@@ -163,26 +163,28 @@ mark{
 
 
 
-/* ==========================================
-   RESPONSIV QISM (MEDIA QUERIES)
-========================================== */
-
-/* Planshetlar uchun (992px dan kichik ekranlar) */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .hero-content {
-        padding: 220px 20px;
-        
+        padding: 150px 15px;
+        width: 100%;
+
         h1 {
-            font-size: 46px;
+            font-size: 32px;       
+            margin-bottom: 15px;
         }
         
         p {
-            font-size: 24px;
+            font-size: 18px;       
+            margin-bottom: 20px;
+        }
+        
+        .btns {
+            font-size: 16px;     
+            padding: 10px 25px;    
+            border-radius: 12px;
         }
     }
 }
-
-/* Mobil telefonlar uchun (768px dan kichik ekranlar) */
 @media (max-width: 768px) {
     nav ul {
         gap: 15px;
@@ -213,8 +215,6 @@ mark{
             padding: 12px 25px;
         }
     }
-
-    /* Telefonda kartochkalar 1 ta ustun bo'lib tushadi */
     .uzum-list {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -228,4 +228,9 @@ mark{
     .about-titles .title {
         font-size: 24px;
     }
+}
+@media (max-width: 468px) {
+  nav ul li a{
+    display: none;
+  }
 }
