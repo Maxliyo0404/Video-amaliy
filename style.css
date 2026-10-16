@@ -102,7 +102,7 @@ header video{
 
 }
 .uzum-item{
-    max-width: 50%;
+    max-width: 100%;
     box-shadow: 10px 20px 15px 18px gainsboro;
     position: relative;
     overflow: hidden;
