@@ -126,10 +126,14 @@ header video{
 }
 .about-titles h2{
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
-.about-titles title{
+.about-titles .title{
     font-size: 30px;
     margin-bottom: 10px;
-    color: gainsboro;
+    color: rgb(134, 131, 131);
+}
+mark{
+    padding: 5px;
+    border-radius: 4px;
 }
