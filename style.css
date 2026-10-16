@@ -33,6 +33,11 @@ nav ul li a {
     color: white;
     font-size: 18px;
     font-weight: 600;
+    &:hover{
+        text-decoration: underline;
+        color:green;
+        cursor: pointer;
+    }
 }
 
 nav ul .btn {
